@@ -10,7 +10,7 @@ description: |
 
 # build on least busy architecture
 architectures:
-- build-on: s390x
+- build-on: ppc64el
   run-on: all
 base: core
 grade: stable
