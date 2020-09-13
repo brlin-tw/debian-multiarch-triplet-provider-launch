@@ -1,2 +1,2 @@
-# The debian-multiarch-triplet-provider-launch Stage Snap
-Refer [The debian-multiarch-triplet-provider-launch Stage Snap - doc - snapcraft.io](https://forum.snapcraft.io/t/the-debian-multiarch-triplet-provider-launch-stage-snap/11738) for more info regarding the use of this stage snap.
+# The debian-multiarch-triplet-provider-launch snap enablement launcher
+Refer [The debian-multiarch-triplet-provider-launch launcher: Enable DEBIAN_MULTIARCH_TRIPLET-like environment variable in the snap runtime - doc - snapcraft.io](https://forum.snapcraft.io/t/the-debian-multiarch-triplet-provider-launch-launcher-enable-debian-multiarch-triplet-like-environment-variable-in-the-snap-runtime/11738) for more info regarding the use of this launcher.
