@@ -4,9 +4,14 @@
 # ease
 # Copyright 2025 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
 
-set \
+if ! set \
     -o errexit \
-    -o nounset
+    -o nounset; then
+    printf -- \
+        '%s: Error: Unable to set defensive interpreter behavior options.\n' \
+        "$(basename "${BASH_SOURCE[0]}")"
+    exit 1
+fi
 
 if ! test -v SNAP_ARCH; then
     printf -- \
