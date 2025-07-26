@@ -44,9 +44,8 @@ case "${SNAP_ARCH}" in
     ppc64el)
         X_DEBIAN_MULTIARCH_TRIPLET=powerpc64le-linux-gnu
     ;;
-    # Consider rest of them not exceptions
-    s390x \
-    |*)
+    # riscv64, s390x, and rest of the architectures that are not exceptions
+    *)
         X_DEBIAN_MULTIARCH_TRIPLET="${SNAP_ARCH}"-linux-gnu
     ;;
 esac
