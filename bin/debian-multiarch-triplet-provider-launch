@@ -2,13 +2,11 @@
 # This launcher sets the Debian-specific multiarch triplet as the
 # X_DEBIAN_MULTIARCH_TRIPLET environmental variable for other launchers'
 # ease
-# 林博仁(Buo-ren, Lin) © 2019
+# Copyright 2025 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
 
 set \
     -o errexit \
-    -o errtrace \
-    -o nounset \
-    -o pipefail
+    -o nounset
 
 if ! test -v SNAP_ARCH; then
     printf -- \
